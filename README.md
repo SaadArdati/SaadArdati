@@ -16,7 +16,7 @@
 
 ## 🛠 Languages & Technologies
 
-<p float="middle">
+<p align="middle">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"  alt="Flutter" width="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"  alt="Dart" width="50"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"  alt="Java" width="50"/>
