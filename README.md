@@ -31,16 +31,17 @@
 
 I started off as a Minecraft developer, making mods with my team and became a Java developer ever since.
 
-In the past 6 years of our Team Wizardry's journey, we've made the following mods:
+In the past 6 years of Team Wizardry's journey, we've made the following mods:
 
 - [Wizardry](https://www.curseforge.com/minecraft/mc-mods/wizardry-mod), our flagship mod in which you delve into spell
-  creation and become a wizard. It currently has which has over **5.5 million downloads** on CurseForge alone.
+  creation and become a wizard. It currently has over **5.5 million downloads** on CurseForge alone.
 - [LibrarianLib](https://www.curseforge.com/minecraft/mc-mods/librarianlib), our home-brewed mod helper library which
   offers a large collection of powerful features for modders. It currently has over **14 million downloads**.
 - [Shotguns & Glitter](https://www.curseforge.com/minecraft/mc-mods/shotguns-glitter). A fun modjam mod which adds
   Guns with weird and wild bullets.
-- [Refraction](https://www.curseforge.com/minecraft/mc-mods/refraction), an originally modjam mod but has since been
-  expanded into a full-fledged mod that is all about light manipulation using mirrors, prisms, and lasers.
+- [Refraction](https://www.curseforge.com/minecraft/mc-mods/refraction), an mod that was originally made in a modjam
+  but has since been expanded into a full-fledged mod that is all about light manipulation using mirrors, prisms, 
+  and lasers.
 
 After 6 years of Minecraft modding, I started to learn Flutter, and have since become a full-time Flutter developer
 with over 4 years of experience, 2 years of which are professionally as a developer at @Codelessly.
