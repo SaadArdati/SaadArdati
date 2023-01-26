@@ -44,4 +44,4 @@ In the past 6 years of Team Wizardry's journey, we've made the following mods:
   and lasers.
 
 After 6 years of Minecraft modding, I started to learn Flutter, and have since become a full-time Flutter developer
-with over 4 years of experience, 2 years of which are professionally as a developer at @Codelessly.
+with over 4 years of experience, 3 years of which are professionally as a developer at @Codelessly.
