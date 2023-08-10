@@ -1,33 +1,52 @@
-# Saad Ardati
+<h1 align="center">Welcome to Saad Ardati's Github Profile 👋</h1>
 
-<sub><sub>(Last updated: September 2022)</sub></sub>
+Hi there! I'm Saad Ardati, a Lebanese self-taught software developer. I'm currently pursuing a degree in
+Computer Science at the Lebanese American University and working as a Senior Flutter Engineer
+at ![Codelessly Logo](assets/codelessly_logo.png) Codelessly and the Team leader
+of ![Wizardry Logo](assets/wizardry_logo.png) TeamWizardry.
 
-👋 Heya! I'm Saad Ardati, a Lebanese self-taught Java & Dart/Flutter dev.
-
-📚 Studying Computer Science at the Lebanese American University (LAU).
-
-![Codelessly Logo](assets/codelessly_logo.png) Currently a developer at @Codelessly.
-
-![Wizardry Logo](assets/wizardry_logo.png) Team leader at @TeamWizardry.
-
-👨‍⚕ ️Oh, I'm also a licensed Physical Therapist from Beirut Arab University (BAU) 🧑‍⚕️ 🙌
+Oh, I'm also a licensed Physical Therapist from Beirut Arab University (BAU) 🧑‍⚕️ 🙌
 
 -----------
 
-## 🛠 Languages & Technologies
+###
 
-<p align="middle">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"  alt="Flutter" width="50"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"  alt="Dart" width="50"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"  alt="Java" width="50"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"  alt="Google Cloud" width="50"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"  alt="Firebase" width="50"/>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SaadArdati&locale=en&theme=dracula&hide_border=false&order=2" alt="languages graph"  />
+</div>
+
+###
+
+<h3 align="center">Languages & Frameworks</h3>
+
+###
+
+<p align="center">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"  alt="Flutter" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"  alt="Dart" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"  alt="Java" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" height="50"/>
 </p>
 
+###
+
+<h3 align="center">Tools & Services</h3>
+
+###
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/SaadArdati/SaadArdati/main/assets/intellij_logo.png"  alt="Intellij" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"  alt="Google Cloud" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"  alt="Firebase" width="50" height="50"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"  alt="Figma" width="50" height="50"/>
+    <img src="https://cdn.simpleicons.org/vercel"  alt="Vercel" width="50" height="50"/>
+    <img src="https://cdn.simpleicons.org/codemagic"  alt="Codemagic" width="50" height="50"/>
+</p>
 
 ------------
 
-## 🌅 A little window into my life
+## A little window into my life
 
 I started off as a Minecraft developer, making mods with my team and became a Java developer ever since.
 
