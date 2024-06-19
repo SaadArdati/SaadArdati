@@ -2,8 +2,7 @@
 
 Hi there! I'm Saad Ardati, a Lebanese self-taught software developer. I'm currently pursuing a degree in
 Computer Science at the Lebanese American University and working as a Senior Flutter Engineer
-at ![Codelessly Logo](assets/codelessly_logo.png) Codelessly and the Team leader
-of ![Wizardry Logo](assets/wizardry_logo.png) TeamWizardry.
+at ![Codelessly Logo](assets/codelessly_logo.png) Codelessly.
 
 Oh, I'm also a licensed Physical Therapist from Beirut Arab University (BAU) 🧑‍⚕️ 🙌
 
@@ -46,11 +45,9 @@ Oh, I'm also a licensed Physical Therapist from Beirut Arab University (BAU) �
 
 ------------
 
-## A little window into my life
+## Early Background
 
-I started off as a Minecraft developer, making mods with my team and became a Java developer ever since.
-
-In the past 6 years of Team Wizardry's journey, we've made the following mods:
+I started off as a Minecraft mod developer, and lead a team of 3 developers and 2 artists. In the past 6 years of Team Wizardry's journey, we've made the following mods:
 
 - [Wizardry](https://www.curseforge.com/minecraft/mc-mods/wizardry-mod), our flagship mod in which you delve into spell
   creation and become a wizard. It currently has over **5.5 million downloads** on CurseForge alone.
