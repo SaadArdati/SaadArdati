@@ -61,3 +61,6 @@ I started off as a Minecraft mod developer, and lead a team of 3 developers and 
 
 After 6 years of Minecraft modding, I started to learn Flutter, and have since become a full-time Flutter developer
 with over 4 years of experience, 3 years of which are professionally as a developer at @Codelessly.
+
+
+[![An image of @saadardati's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/saadardati)](https://holopin.io/@saadardati)
