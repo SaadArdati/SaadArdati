@@ -1,10 +1,10 @@
 <h1 align="center">Welcome to Saad Ardati's Github Profile 👋</h1>
 
-Hi there! I'm Saad Ardati, a Lebanese self-taught software developer. I'm currently pursuing a degree in
-Computer Science at the Lebanese American University and working as a Senior Flutter Engineer
-at ![Codelessly Logo](assets/codelessly_logo.png) Codelessly.
+I'm a Flutter engineer who got here by way of Minecraft. I spent seven years leading an open-source modding team, six developers and two artists, whose work was downloaded over 30 million times.
 
-Oh, I'm also a licensed Physical Therapist from Beirut Arab University (BAU) 🧑‍⚕️ 🙌
+These days I'm focused on my own projects: Hyper Zones, a timezone app I co-run, and Dream Council, an AI deliberation platform I'm building with Birju Vachhani. Before that, I led Flutter at Codelessly, building AI tooling and contributing back to the SDK.
+
+I'm in Beirut, mostly self-taught, picking up the CS degree at LAU on the side for the receipts.
 
 -----------
 
