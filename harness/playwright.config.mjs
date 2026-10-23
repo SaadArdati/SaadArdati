@@ -5,7 +5,7 @@ const desktop = { width: 1280, height: 900 };
 const mobile = { width: 390, height: 844 };
 
 export default defineConfig({
-  testMatch: ['readme.spec.mjs', 'app.spec.mjs'],
+  testMatch: ['readme.spec.mjs', 'app.spec.mjs', 'theme.spec.mjs'],
   timeout: 60_000,
   reporter: [['list'], ['html', { open: 'never' }]],
   snapshotPathTemplate: 'goldens/{arg}-{projectName}{ext}',

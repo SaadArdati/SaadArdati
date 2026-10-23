@@ -55,6 +55,15 @@ function localFor(url) {
   return path.startsWith(ROOT) && existsSync(path) ? path : null;
 }
 
+// Signed-in users who pick a GitHub theme get data-color-mode="dark"|"light" server-side instead of "auto", which
+// switches <themed-picture> into rewriting <source> media. Logged-out pages are always "auto", so emulate it.
+export async function forceColorMode(page, mode) {
+  await page.addInitScript((mode) => new MutationObserver(() => {
+    const html = document.documentElement;
+    if (html.dataset.colorMode && html.dataset.colorMode !== mode) html.dataset.colorMode = mode;
+  }).observe(document, { subtree: true, attributes: true, attributeFilter: ['data-color-mode'], childList: true }), mode);
+}
+
 export async function showReadme(page, html) {
   await page.route('**/*', (route) => {
     const path = localFor(route.request().url());

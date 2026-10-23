@@ -329,12 +329,16 @@ def auto(build, alt):
 
 # ── README ──────────────────────────────────────────────────────────────────
 def themed_picture(base, alt):
-    """Browsers pick by GitHub theme and width. Apps that ignore <picture> get the narrow, OS-themed fallback."""
+    """Signed-in users with an explicit GitHub theme get <themed-picture> JS that rewrites every source mentioning
+    prefers-color-scheme to "always" (matching theme) or "not all", dropping any width condition. So the desktop
+    sources come first: logged-out and system-theme visitors still get width switching, explicit-theme visitors get
+    the desktop asset at every width (scaled down on phones, never the stacked hero on a desktop). Apps that ignore
+    <picture> get the narrow, OS-themed fallback."""
     return f'''<picture>
-  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="{RAW}/{base}-mobile-dark.svg">
-  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="{RAW}/{base}-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="{RAW}/{base}-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="{RAW}/{base}-light.svg">
+  <source media="(min-width: 768px) and (prefers-color-scheme: dark)" srcset="{RAW}/{base}-dark.svg">
+  <source media="(min-width: 768px) and (prefers-color-scheme: light)" srcset="{RAW}/{base}-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="{RAW}/{base}-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="{RAW}/{base}-mobile-light.svg">
   <img alt="{alt}" src="{RAW}/{base}-mobile-auto.svg" width="100%">
 </picture>'''
 
