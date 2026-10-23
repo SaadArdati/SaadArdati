@@ -1,0 +1,35 @@
+name: Refresh README stats
+
+on:
+  schedule:
+    - cron: '17 6 * * 1' # Mondays, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      # Same Pillow as local builds, so unchanged stats regenerate byte-identical SVGs and nothing gets committed.
+      - run: pip install pillow==12.3.0
+      - run: npm ci --prefix scripts
+      - run: python3 -I scripts/build_readme.py
+      - name: Commit if anything changed
+        run: |
+          # Raw counts move weekly; only a change in what's displayed is worth a commit.
+          git add README.md assets
+          git diff --cached --quiet && exit 0
+          git add scripts/stats.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh README stats'
+          git push

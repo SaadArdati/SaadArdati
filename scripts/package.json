@@ -1,0 +1,7 @@
+{
+  "name": "readme-build",
+  "private": true,
+  "dependencies": {
+    "simple-icons": "16.35.0"
+  }
+}
